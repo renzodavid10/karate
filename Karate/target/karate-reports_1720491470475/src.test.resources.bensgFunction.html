@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("22edd8df-8cda-4cff-8aa2-001f45defea4",{name:"Renzo Torres"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.bensgFunction</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-06-22 10:30:09 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Llamando funciones bengs</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/bensgFunction.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Call Function  bengs</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Llamando funciones bengs</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1713</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://bensg.com/test-qalab/webservice/rest/server.php&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">57</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param wstoken = &quot;f50be08c81b0480df9832f1838e60cd6&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param wsfunction = &quot;core_course_get_contents&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param moodlewsrestformat = &quot;json&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param courseid = &quot;3&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1593</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">10:30:08.372 request:
+1 &gt; GET https://bensg.com/test-qalab/webservice/rest/server.php?wstoken=f50be08c81b0480df9832f1838e60cd6&amp;wsfunction=core_course_get_contents&amp;moodlewsrestformat=json&amp;courseid=3
+1 &gt; Host: bensg.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_231)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:30:09.471 response time in milliseconds: 1096
+1 &lt; 200
+1 &lt; Date: Sat, 22 Jun 2024 15:30:09 GMT
+1 &lt; Server: Apache
+1 &lt; X-Powered-By: PHP/7.4.33
+1 &lt; Cache-Control: private, must-revalidate, pre-check=0, post-check=0, max-age=0
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 &lt; Pragma: no-cache
+1 &lt; Accept-Ranges: none
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Keep-Alive: timeout=5, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json
+[{&quot;id&quot;:6,&quot;name&quot;:&quot;Avisos Prueba&quot;,&quot;visible&quot;:1,&quot;summary&quot;:&quot;&quot;,&quot;summaryformat&quot;:1,&quot;section&quot;:0,&quot;hiddenbynumsections&quot;:0,&quot;uservisible&quot;:true,&quot;modules&quot;:[{&quot;id&quot;:2,&quot;url&quot;:&quot;https:\/\/bensg.com\/test-qalab\/mod\/forum\/view.php?id=2&quot;,&quot;name&quot;:&quot;Avisos Prueba&quot;,&quot;instance&quot;:2,&quot;contextid&quot;:49,&quot;visible&quot;:1,&quot;uservisible&quot;:true,&quot;visibleoncoursepage&quot;:1,&quot;modicon&quot;:&quot;https:\/\/bensg.com\/test-qalab\/theme\/image.php\/moove\/forum\/1659200306\/monologo&quot;,&quot;modname&quot;:&quot;forum&quot;,&quot;modplural&quot;:&quot;Foros&quot;,&quot;indent&quot;:0,&quot;onclick&quot;:&quot;&quot;,&quot;afterlink&quot;:null,&quot;customdata&quot;:&quot;\&quot;\&quot;&quot;,&quot;noviewlink&quot;:false,&quot;completion&quot;:0,&quot;downloadcontent&quot;:1,&quot;dates&quot;:[]},{&quot;id&quot;:11,&quot;url&quot;:&quot;https:\/\/bensg.com\/test-qalab\/mod\/url\/view.php?id=11&quot;,&quot;name&quot;:&quot;Pruebas Intermedio 17\/10&quot;,&quot;instance&quot;:2,&quot;contextid&quot;:78,&quot;visible&quot;:1,&quot;uservisible&quot;:true,&quot;visibleoncoursepage&quot;:1,&quot;modicon&quot;:&quot;https:\/\/bensg.com\/test-qalab\/theme\/image.php\/moove\/url\/1659200306\/monologo&quot;,&quot;modname&quot;:&quot;url&quot;,&quot;modplural&quot;:&quot;URLs&quot;,&quot;indent&quot;:0,&quot;onclick&quot;:&quot;&quot;,&quot;afterlink&quot;:null,&quot;customdata&quot;:&quot;{\&quot;display\&quot;:4}&quot;,&quot;noviewlink&quot;:false,&quot;completion&quot;:1,&quot;completiondata&quot;:{&quot;state&quot;:0,&quot;timecompleted&quot;:1700521969,&quot;overrideby&quot;:null,&quot;valueused&quot;:false,&quot;hascompletion&quot;:true,&quot;isautomatic&quot;:false,&quot;istrackeduser&quot;:true,&quot;uservisible&quot;:true,&quot;details&quot;:[]},&quot;downloadcontent&quot;:1,&quot;dates&quot;:[],&quot;contents&quot;:[{&quot;type&quot;:&quot;url&quot;,&quot;filename&quot;:&quot;Pruebas Intermedio 1710&quot;,&quot;filepath&quot;:null,&quot;filesize&quot;:0,&quot;fileurl&quot;:&quot;http:\/\/www.google.com&quot;,&quot;timecreated&quot;:null,&quot;timemodified&quot;:1666018277,&quot;sortorder&quot;:null,&quot;userid&quot;:null,&quot;author&quot;:null,&quot;license&quot;:null}],&quot;contentsinfo&quot;:{&quot;filescount&quot;:1,&quot;filessize&quot;:0,&quot;lastmodified&quot;:1666018277,&quot;mimetypes&quot;:[],&quot;repositorytype&quot;:&quot;&quot;}},{&quot;id&quot;:12,&quot;url&quot;:&quot;https:\/\/bensg.com\/test-qalab\/mod\/resource\/view.php?id=12&quot;,&quot;name&quot;:&quot;Archivo de prueba&quot;,&quot;instance&quot;:1,&quot;contextid&quot;:80,&quot;visible&quot;:1,&quot;uservisible&quot;:true,&quot;visibleoncoursepage&quot;:1,&quot;modicon&quot;:&quot;https:\/\/bensg.com\/test-qalab\/theme\/image.php\/moove\/resource\/1659200306\/monologo&quot;,&quot;modname&quot;:&quot;resource&quot;,&quot;modplural&quot;:&quot;Archivos&quot;,&quot;indent&quot;:0,&quot;onclick&quot;:&quot;&quot;,&quot;afterlink&quot;:null,&quot;customdata&quot;:&quot;{\&quot;displayoptions\&quot;:\&quot;a:1:{s:10:\\\&quot;printintro\\\&quot;;i:1;}\&quot;,\&quot;display\&quot;:5}&quot;,&quot;noviewlink&quot;:false,&quot;completion&quot;:1,&quot;completiondata&quot;:{&quot;state&quot;:0,&quot;timecompleted&quot;:1700117853,&quot;overrideby&quot;:null,&quot;valueused&quot;:false,&quot;hascompletion&quot;:true,&quot;isautomatic&quot;:false,&quot;istrackeduser&quot;:true,&quot;uservisible&quot;:true,&quot;details&quot;:[]},&quot;downloadcontent&quot;:1,&quot;dates&quot;:[],&quot;contents&quot;:[{&quot;type&quot;:&quot;file&quot;,&quot;filename&quot;:&quot;Prueba.txt&quot;,&quot;filepath&quot;:&quot;\/&quot;,&quot;filesize&quot;:8,&quot;fileurl&quot;:&quot;https:\/\/bensg.com\/test-qalab\/webservice\/pluginfile.php\/80\/mod_resource\/content\/1\/Prueba.txt?forcedownload=1&quot;,&quot;timecreated&quot;:1661791286,&quot;timemodified&quot;:1661791288,&quot;sortorder&quot;:1,&quot;mimetype&quot;:&quot;text\/plain&quot;,&quot;isexternalfile&quot;:false,&quot;userid&quot;:25,&quot;author&quot;:&quot;Profesor 02 PERU&quot;,&quot;license&quot;:&quot;unknown&quot;}],&quot;contentsinfo&quot;:{&quot;filescount&quot;:1,&quot;filessize&quot;:8,&quot;lastmodified&quot;:1661791288,&quot;mimetypes&quot;:[&quot;text\/plain&quot;],&quot;repositorytype&quot;:&quot;&quot;}}]},{&quot;id&quot;:7,&quot;name&quot;:&quot;Tema 1&quot;,&quot;visible&quot;:1,&quot;summary&quot;:&quot;&quot;,&quot;summaryformat&quot;:1,&quot;section&quot;:1,&quot;hiddenbynumsections&quot;:0,&quot;uservisible&quot;:true,&quot;modules&quot;:[]},{&quot;id&quot;:8,&quot;name&quot;:&quot;Tema 2&quot;,&quot;visible&quot;:1,&quot;summary&quot;:&quot;&quot;,&quot;summaryformat&quot;:1,&quot;section&quot;:2,&quot;hiddenbynumsections&quot;:0,&quot;uservisible&quot;:true,&quot;modules&quot;:[]},{&quot;id&quot;:9,&quot;name&quot;:&quot;Tema 3&quot;,&quot;visible&quot;:1,&quot;summary&quot;:&quot;&quot;,&quot;summaryformat&quot;:1,&quot;section&quot;:3,&quot;hiddenbynumsections&quot;:0,&quot;uservisible&quot;:true,&quot;modules&quot;:[]},{&quot;id&quot;:10,&quot;name&quot;:&quot;Tema 4&quot;,&quot;visible&quot;:1,&quot;summary&quot;:&quot;&quot;,&quot;summaryformat&quot;:1,&quot;section&quot;:4,&quot;hiddenbynumsections&quot;:0,&quot;uservisible&quot;:true,&quot;modules&quot;:[]}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">59</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">10:30:09.563 [print] [
+  {
+    &quot;id&quot;: 6,
+    &quot;name&quot;: &quot;Avisos Prueba&quot;,
+    &quot;visible&quot;: 1,
+    &quot;summary&quot;: &quot;&quot;,
+    &quot;summaryformat&quot;: 1,
+    &quot;section&quot;: 0,
+    &quot;hiddenbynumsections&quot;: 0,
+    &quot;uservisible&quot;: true,
+    &quot;modules&quot;: [
+      {
+        &quot;id&quot;: 2,
+        &quot;url&quot;: &quot;https://bensg.com/test-qalab/mod/forum/view.php?id=2&quot;,
+        &quot;name&quot;: &quot;Avisos Prueba&quot;,
+        &quot;instance&quot;: 2,
+        &quot;contextid&quot;: 49,
+        &quot;visible&quot;: 1,
+        &quot;uservisible&quot;: true,
+        &quot;visibleoncoursepage&quot;: 1,
+        &quot;modicon&quot;: &quot;https://bensg.com/test-qalab/theme/image.php/moove/forum/1659200306/monologo&quot;,
+        &quot;modname&quot;: &quot;forum&quot;,
+        &quot;modplural&quot;: &quot;Foros&quot;,
+        &quot;indent&quot;: 0,
+        &quot;onclick&quot;: &quot;&quot;,
+        &quot;afterlink&quot;: null,
+        &quot;customdata&quot;: &quot;\&quot;\&quot;&quot;,
+        &quot;noviewlink&quot;: false,
+        &quot;completion&quot;: 0,
+        &quot;downloadcontent&quot;: 1,
+        &quot;dates&quot;: [
+        ]
+      },
+      {
+        &quot;id&quot;: 11,
+        &quot;url&quot;: &quot;https://bensg.com/test-qalab/mod/url/view.php?id=11&quot;,
+        &quot;name&quot;: &quot;Pruebas Intermedio 17/10&quot;,
+        &quot;instance&quot;: 2,
+        &quot;contextid&quot;: 78,
+        &quot;visible&quot;: 1,
+        &quot;uservisible&quot;: true,
+        &quot;visibleoncoursepage&quot;: 1,
+        &quot;modicon&quot;: &quot;https://bensg.com/test-qalab/theme/image.php/moove/url/1659200306/monologo&quot;,
+        &quot;modname&quot;: &quot;url&quot;,
+        &quot;modplural&quot;: &quot;URLs&quot;,
+        &quot;indent&quot;: 0,
+        &quot;onclick&quot;: &quot;&quot;,
+        &quot;afterlink&quot;: null,
+        &quot;customdata&quot;: &quot;{\&quot;display\&quot;:4}&quot;,
+        &quot;noviewlink&quot;: false,
+        &quot;completion&quot;: 1,
+        &quot;completiondata&quot;: {
+          &quot;state&quot;: 0,
+          &quot;timecompleted&quot;: 1700521969,
+          &quot;overrideby&quot;: null,
+          &quot;valueused&quot;: false,
+          &quot;hascompletion&quot;: true,
+          &quot;isautomatic&quot;: false,
+          &quot;istrackeduser&quot;: true,
+          &quot;uservisible&quot;: true,
+          &quot;details&quot;: [
+          ]
+        },
+        &quot;downloadcontent&quot;: 1,
+        &quot;dates&quot;: [
+        ],
+        &quot;contents&quot;: [
+          {
+            &quot;type&quot;: &quot;url&quot;,
+            &quot;filename&quot;: &quot;Pruebas Intermedio 1710&quot;,
+            &quot;filepath&quot;: null,
+            &quot;filesize&quot;: 0,
+            &quot;fileurl&quot;: &quot;http://www.google.com&quot;,
+            &quot;timecreated&quot;: null,
+            &quot;timemodified&quot;: 1666018277,
+            &quot;sortorder&quot;: null,
+            &quot;userid&quot;: null,
+            &quot;author&quot;: null,
+            &quot;license&quot;: null
+          }
+        ],
+        &quot;contentsinfo&quot;: {
+          &quot;filescount&quot;: 1,
+          &quot;filessize&quot;: 0,
+          &quot;lastmodified&quot;: 1666018277,
+          &quot;mimetypes&quot;: [
+          ],
+          &quot;repositorytype&quot;: &quot;&quot;
+        }
+      },
+      {
+        &quot;id&quot;: 12,
+        &quot;url&quot;: &quot;https://bensg.com/test-qalab/mod/resource/view.php?id=12&quot;,
+        &quot;name&quot;: &quot;Archivo de prueba&quot;,
+        &quot;instance&quot;: 1,
+        &quot;contextid&quot;: 80,
+        &quot;visible&quot;: 1,
+        &quot;uservisible&quot;: true,
+        &quot;visibleoncoursepage&quot;: 1,
+        &quot;modicon&quot;: &quot;https://bensg.com/test-qalab/theme/image.php/moove/resource/1659200306/monologo&quot;,
+        &quot;modname&quot;: &quot;resource&quot;,
+        &quot;modplural&quot;: &quot;Archivos&quot;,
+        &quot;indent&quot;: 0,
+        &quot;onclick&quot;: &quot;&quot;,
+        &quot;afterlink&quot;: null,
+        &quot;customdata&quot;: &quot;{\&quot;displayoptions\&quot;:\&quot;a:1:{s:10:\\\&quot;printintro\\\&quot;;i:1;}\&quot;,\&quot;display\&quot;:5}&quot;,
+        &quot;noviewlink&quot;: false,
+        &quot;completion&quot;: 1,
+        &quot;completiondata&quot;: {
+          &quot;state&quot;: 0,
+          &quot;timecompleted&quot;: 1700117853,
+          &quot;overrideby&quot;: null,
+          &quot;valueused&quot;: false,
+          &quot;hascompletion&quot;: true,
+          &quot;isautomatic&quot;: false,
+          &quot;istrackeduser&quot;: true,
+          &quot;uservisible&quot;: true,
+          &quot;details&quot;: [
+          ]
+        },
+        &quot;downloadcontent&quot;: 1,
+        &quot;dates&quot;: [
+        ],
+        &quot;contents&quot;: [
+          {
+            &quot;type&quot;: &quot;file&quot;,
+            &quot;filename&quot;: &quot;Prueba.txt&quot;,
+            &quot;filepath&quot;: &quot;/&quot;,
+            &quot;filesize&quot;: 8,
+            &quot;fileurl&quot;: &quot;https://bensg.com/test-qalab/webservice/pluginfile.php/80/mod_resource/content/1/Prueba.txt?forcedownload=1&quot;,
+            &quot;timecreated&quot;: 1661791286,
+            &quot;timemodified&quot;: 1661791288,
+            &quot;sortorder&quot;: 1,
+            &quot;mimetype&quot;: &quot;text/plain&quot;,
+            &quot;isexternalfile&quot;: false,
+            &quot;userid&quot;: 25,
+            &quot;author&quot;: &quot;Profesor 02 PERU&quot;,
+            &quot;license&quot;: &quot;unknown&quot;
+          }
+        ],
+        &quot;contentsinfo&quot;: {
+          &quot;filescount&quot;: 1,
+          &quot;filessize&quot;: 8,
+          &quot;lastmodified&quot;: 1661791288,
+          &quot;mimetypes&quot;: [
+            &quot;text/plain&quot;
+          ],
+          &quot;repositorytype&quot;: &quot;&quot;
+        }
+      }
+    ]
+  },
+  {
+    &quot;id&quot;: 7,
+    &quot;name&quot;: &quot;Tema 1&quot;,
+    &quot;visible&quot;: 1,
+    &quot;summary&quot;: &quot;&quot;,
+    &quot;summaryformat&quot;: 1,
+    &quot;section&quot;: 1,
+    &quot;hiddenbynumsections&quot;: 0,
+    &quot;uservisible&quot;: true,
+    &quot;modules&quot;: [
+    ]
+  },
+  {
+    &quot;id&quot;: 8,
+    &quot;name&quot;: &quot;Tema 2&quot;,
+    &quot;visible&quot;: 1,
+    &quot;summary&quot;: &quot;&quot;,
+    &quot;summaryformat&quot;: 1,
+    &quot;section&quot;: 2,
+    &quot;hiddenbynumsections&quot;: 0,
+    &quot;uservisible&quot;: true,
+    &quot;modules&quot;: [
+    ]
+  },
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Tema 3&quot;,
+    &quot;visible&quot;: 1,
+    &quot;summary&quot;: &quot;&quot;,
+    &quot;summaryformat&quot;: 1,
+    &quot;section&quot;: 3,
+    &quot;hiddenbynumsections&quot;: 0,
+    &quot;uservisible&quot;: true,
+    &quot;modules&quot;: [
+    ]
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;name&quot;: &quot;Tema 4&quot;,
+    &quot;visible&quot;: 1,
+    &quot;summary&quot;: &quot;&quot;,
+    &quot;summaryformat&quot;: 1,
+    &quot;section&quot;: 4,
+    &quot;hiddenbynumsections&quot;: 0,
+    &quot;uservisible&quot;: true,
+    &quot;modules&quot;: [
+    ]
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

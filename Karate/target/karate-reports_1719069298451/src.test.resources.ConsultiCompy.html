@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("22edd8df-8cda-4cff-8aa2-001f45defea4",{name:"Renzo Torres"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.ConsultiCompy</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-06-20 09:04:41 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Consulta Tokens</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/ConsultiCompy.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Consulta Compy</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Consulta Tokens</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1421</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://api.compy.pe/api/products/v2/get/6525088cf0ffaae7a3237f6e&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">62</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header accept = &quot;*/*&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header accept-language = &quot;es-US,es-419;q=0.9,es;q=0.8&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header origin = &quot;https://compy.pe&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header priority = &quot;u=1, i&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header referer = &quot;https://compy.pe/&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header sec-fetch-dest = &quot;empty&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header sec-fetch-mode = &quot;cors&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header sec-fetch-site = &quot;same-site&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header user-agent = &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1288</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">09:04:41.119 request:
+1 &gt; GET https://api.compy.pe/api/products/v2/get/6525088cf0ffaae7a3237f6e
+1 &gt; accept: */*
+1 &gt; accept-language: es-US,es-419;q=0.9,es;q=0.8
+1 &gt; origin: https://compy.pe
+1 &gt; priority: u=1, i
+1 &gt; referer: https://compy.pe/
+1 &gt; sec-fetch-dest: empty
+1 &gt; sec-fetch-mode: cors
+1 &gt; sec-fetch-site: same-site
+1 &gt; user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+1 &gt; Host: api.compy.pe
+1 &gt; Connection: Keep-Alive
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+09:04:41.761 response time in milliseconds: 638
+1 &lt; 200
+1 &lt; Date: Thu, 20 Jun 2024 14:04:42 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: https://compy.pe
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+1 &lt; Access-Control-Allow-Methods: GET,POST,OPTIONS
+1 &lt; ETag: W/&quot;3300-4h2bvBG5qSBB26HnbkGF60GiqRA&quot;
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=CyaTQszuFLQHzRYlZZFeaMUF6I9uTNkeTHtM%2B6ZZp8cFYBXcVKXznqO6RwfQMs3drqI1Ae613cxEAnmmYB%2FZd0okRGDU1%2FqcoGluWgQm9vmonKoOR4wdBUEX1FtSzl0%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 896c4f3ddb67b4e0-SCL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+{&quot;message&quot;:&quot;Product fetched correctly&quot;,&quot;product&quot;:{&quot;_id&quot;:&quot;6525088cf0ffaae7a3237f6e&quot;,&quot;repmodel&quot;:&quot;MOTO G22 4RAM 128GB AZUL&quot;,&quot;brand&quot;:&quot;MOTOROLA&quot;,&quot;categories&quot;:{&quot;level1&quot;:&quot;Tecnologia&quot;,&quot;level2&quot;:&quot;Telefonia&quot;,&quot;level3&quot;:&quot;Smartphones&quot;},&quot;category&quot;:&quot;Celulares&quot;,&quot;images&quot;:[{&quot;key&quot;:&quot;Promart1000367658&quot;,&quot;title&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;store&quot;:&quot;Promart&quot;,&quot;size&quot;:4,&quot;urls&quot;:[&quot;https://promart.vteximg.com.br/arquivos/ids/6891424/1.jpg?v=638158238297530000&quot;,&quot;https://promart.vteximg.com.br/arquivos/ids/6871260/image-0767eb0528d143ff9c656f981e94b212.jpg?v=638151154099800000&quot;,&quot;https://promart.vteximg.com.br/arquivos/ids/6871261/image-8ba24ab4eb434287a355ea9e7a4974a0.jpg?v=638151154099970000&quot;,&quot;https://promart.vteximg.com.br/arquivos/ids/6871262/image-463076c0fdf548a399ce50fc97d04a40.jpg?v=638151154102170000&quot;],&quot;updated&quot;:&quot;2024-06-20T00:00:00.000Z&quot;,&quot;bestprice&quot;:449}],&quot;metrics&quot;:{&quot;percent_offer&quot;:25.67691623368636,&quot;median_hist&quot;:582.968275862069,&quot;prev_price&quot;:433.28,&quot;amt_change&quot;:0,&quot;amt_change_text&quot;:&quot;No bajó de precio&quot;,&quot;percent_change&quot;:0,&quot;price_minimum&quot;:433.28,&quot;isminimum&quot;:true,&quot;percent_save&quot;:3.5011135857461086},&quot;prices&quot;:[{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-12T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-11T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-10T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-09T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-09T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-07T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-06T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-05T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-04T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-03T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-02T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-04-01T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-31T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-30T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-29T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-28T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-27T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-26T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-25T00:00:00.000Z&quot;,&quot;variation&quot;:2.0402734551645296},{&quot;price&quot;:751.86,&quot;date&quot;:&quot;2024-03-24T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:751.86,&quot;date&quot;:&quot;2024-03-23T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:751.86,&quot;date&quot;:&quot;2024-03-22T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:751.86,&quot;date&quot;:&quot;2024-03-18T00:00:00.000Z&quot;,&quot;variation&quot;:-1.9994786235662187},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-15T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-14T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-13T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-12T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-11T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-10T00:00:00.000Z&quot;,&quot;variation&quot;:0},{&quot;price&quot;:767.2,&quot;date&quot;:&quot;2024-03-09T00:00:00.000Z&quot;,&quot;variation&quot;:0}],&quot;related&quot;:[],&quot;skus&quot;:[{&quot;priority&quot;:0.9,&quot;sku&quot;:&quot;1148760&quot;,&quot;brand&quot;:&quot;MOTOROLA&quot;,&quot;category&quot;:&quot;Celulares&quot;,&quot;subcategory&quot;:&quot;Otros&quot;,&quot;key&quot;:&quot;Shopstar1148760&quot;,&quot;title&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;titleurl&quot;:&quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,&quot;store&quot;:&quot;Shopstar&quot;,&quot;model&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;url&quot;:&quot;https://www.shopstar.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1148760/p&quot;,&quot;url_parent&quot;:&quot;https://www.shopstar.pe/api/catalog_system/pub/products/search/?fq=productId:1148760&quot;,&quot;price&quot;:449,&quot;bestprice&quot;:433.28,&quot;prevprice&quot;:433.28,&quot;price_change&quot;:0,&quot;homologated&quot;:1,&quot;updated&quot;:&quot;2024-06-19T15:18:58.157Z&quot;,&quot;updated_date&quot;:&quot;2024-06-19T00:00:00.000Z&quot;,&quot;specs&quot;:[{&quot;k&quot;:&quot;Memoria interna&quot;,&quot;v&quot;:&quot;128GB&quot;},{&quot;k&quot;:&quot;Memoria ram&quot;,&quot;v&quot;:&quot;4GB&quot;}],&quot;spider&quot;:&quot;shopstar&quot;,&quot;url_search&quot;:&quot;https://shopstar.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1148760/p&quot;,&quot;stock&quot;:-1,&quot;price_card&quot;:433.28},{&quot;priority&quot;:0.6,&quot;sku&quot;:&quot;1000405468&quot;,&quot;brand&quot;:&quot;MOTOROLA&quot;,&quot;category&quot;:&quot;Celulares&quot;,&quot;subcategory&quot;:&quot;Otros&quot;,&quot;key&quot;:&quot;Real Plaza1000405468&quot;,&quot;title&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;titleurl&quot;:&quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,&quot;store&quot;:&quot;Realplaza.com&quot;,&quot;model&quot;:&quot;G22&quot;,&quot;url&quot;:&quot;https://www.realplaza.com/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000405468/p&quot;,&quot;url_parent&quot;:&quot;https://www.realplaza.com/api/catalog_system/pub/products/search?fq=productId%3A1000405468&quot;,&quot;price&quot;:449,&quot;bestprice&quot;:449,&quot;prevprice&quot;:449,&quot;price_change&quot;:0,&quot;homologated&quot;:1,&quot;updated&quot;:&quot;2024-06-19T12:23:17.793Z&quot;,&quot;updated_date&quot;:&quot;2024-06-19T00:00:00.000Z&quot;,&quot;specs&quot;:[{&quot;k&quot;:&quot;Enfoque Automático&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Cámara Principal&quot;,&quot;v&quot;:&quot;50MP+8MP+2MP+2MP&quot;},{&quot;k&quot;:&quot;Modelo del procesador&quot;,&quot;v&quot;:&quot;Helio G37 octa-core 2.3GHz&quot;},{&quot;k&quot;:&quot;Tamaño pantalla celulares&quot;,&quot;v&quot;:&quot;6.5\&quot;&quot;},{&quot;k&quot;:&quot;Dual SIM&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Tecnología Celular&quot;,&quot;v&quot;:&quot;4G&quot;},{&quot;k&quot;:&quot;Nombre Comercial&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Conexión Bluetooth&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Tipo de producto&quot;,&quot;v&quot;:&quot;Smartphone&quot;},{&quot;k&quot;:&quot;Modelo&quot;,&quot;v&quot;:&quot;G22&quot;},{&quot;k&quot;:&quot;Nomenclatura&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Alto&quot;,&quot;v&quot;:&quot;15.29 cm&quot;},{&quot;k&quot;:&quot;Ancho&quot;,&quot;v&quot;:&quot;7.12 cm&quot;},{&quot;k&quot;:&quot;Profundidad&quot;,&quot;v&quot;:&quot;0.77 cm&quot;},{&quot;k&quot;:&quot;Color&quot;,&quot;v&quot;:&quot;Azul&quot;},{&quot;k&quot;:&quot;Sistema Operativo&quot;,&quot;v&quot;:&quot;Android&quot;},{&quot;k&quot;:&quot;Batería&quot;,&quot;v&quot;:&quot;5000 mAh&quot;},{&quot;k&quot;:&quot;Peso&quot;,&quot;v&quot;:&quot;0.186 kg&quot;},{&quot;k&quot;:&quot;Descripción Emotiva&quot;,&quot;v&quot;:&quot;Con un diseño elegante y compacto, luce espectacular y te ofrece tus funciones favoritas para que disfrutes la vida al máximo.&quot;},{&quot;k&quot;:&quot;Conexión Wi Fi&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Tipo de pantalla&quot;,&quot;v&quot;:&quot;LCD&quot;},{&quot;k&quot;:&quot;Cámara Integrada&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Cámara Frontal&quot;,&quot;v&quot;:&quot;16MP&quot;},{&quot;k&quot;:&quot;Tamaño de Pantalla&quot;,&quot;v&quot;:&quot;6.5\&quot;&quot;},{&quot;k&quot;:&quot;Memoria Optane&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Velocidad del procesador&quot;,&quot;v&quot;:&quot;2.3GHz&quot;},{&quot;k&quot;:&quot;Características&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\nSistema operativo: Android 12\nDuración de carga: 45 minutos&quot;},{&quot;k&quot;:&quot;Garantía&quot;,&quot;v&quot;:&quot;1 año&quot;},{&quot;k&quot;:&quot;Incluye&quot;,&quot;v&quot;:&quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;},{&quot;k&quot;:&quot;Memoria RAM&quot;,&quot;v&quot;:&quot;4GB&quot;},{&quot;k&quot;:&quot;Memoria interna&quot;,&quot;v&quot;:&quot;128GB&quot;}],&quot;spider&quot;:&quot;realplaza&quot;,&quot;url_search&quot;:&quot;https://www.realplaza.com/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000405468/p&quot;,&quot;stock&quot;:11,&quot;price_card&quot;:null},{&quot;priority&quot;:0.6,&quot;sku&quot;:&quot;2316873&quot;,&quot;brand&quot;:&quot;MOTOROLA&quot;,&quot;category&quot;:&quot;Celulares&quot;,&quot;subcategory&quot;:&quot;Otros&quot;,&quot;key&quot;:&quot;Oechsle2316873&quot;,&quot;title&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;titleurl&quot;:&quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,&quot;store&quot;:&quot;Oechsle&quot;,&quot;model&quot;:&quot;G22&quot;,&quot;url&quot;:&quot;https://www.oechsle.pe/celular-motorola-g22-6-5-4gb-ram-128gb-azul-2316873/p&quot;,&quot;url_parent&quot;:&quot;https://www.oechsle.pe/api/catalog_system/pub/products/search?fq=productId%3A2316873&quot;,&quot;price&quot;:449,&quot;bestprice&quot;:449,&quot;prevprice&quot;:449,&quot;price_change&quot;:0,&quot;homologated&quot;:1,&quot;updated&quot;:&quot;2024-06-19T18:06:45.536Z&quot;,&quot;updated_date&quot;:&quot;2024-06-19T00:00:00.000Z&quot;,&quot;specs&quot;:[{&quot;k&quot;:&quot;Alta Resolución (HD)&quot;,&quot;v&quot;:&quot;Alta Resolución (HD)&quot;},{&quot;k&quot;:&quot;Conexión Firewire&quot;,&quot;v&quot;:&quot;Conexión Firewire&quot;},{&quot;k&quot;:&quot;Enfoque Manual&quot;,&quot;v&quot;:&quot;Enfoque Manual&quot;},{&quot;k&quot;:&quot;Luz Incorporada&quot;,&quot;v&quot;:&quot;Luz Incorporada&quot;},{&quot;k&quot;:&quot;Peso (Kg)&quot;,&quot;v&quot;:&quot;Peso (Kg)&quot;},{&quot;k&quot;:&quot;Puertos RCA&quot;,&quot;v&quot;:&quot;Puertos RCA&quot;},{&quot;k&quot;:&quot;Ranura para Memoria Flash&quot;,&quot;v&quot;:&quot;Ranura para Memoria Flash&quot;},{&quot;k&quot;:&quot;Registro Fecha/Hora&quot;,&quot;v&quot;:&quot;Registro Fecha/Hora&quot;},{&quot;k&quot;:&quot;Tamaño Pantalla&quot;,&quot;v&quot;:&quot;Tamaño Pantalla&quot;},{&quot;k&quot;:&quot;Tipo de Memoria&quot;,&quot;v&quot;:&quot;Tipo de Memoria&quot;},{&quot;k&quot;:&quot;Zoom&quot;,&quot;v&quot;:&quot;Zoom&quot;},{&quot;k&quot;:&quot;Profundidad en agua&quot;,&quot;v&quot;:&quot;No (No)&quot;},{&quot;k&quot;:&quot;Protección de sobrecarga&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Radio&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Indicador de carga&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Botón SOS&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Cámara integrada&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Enfoque automático&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Tecnología celular&quot;,&quot;v&quot;:&quot;4G&quot;},{&quot;k&quot;:&quot;Vendido por&quot;,&quot;v&quot;:&quot;Oechsle&quot;},{&quot;k&quot;:&quot;Tamaño pantalla celulares&quot;,&quot;v&quot;:&quot;6.5&quot;},{&quot;k&quot;:&quot;Tipo de envío&quot;,&quot;v&quot;:&quot;Envío hoy&quot;},{&quot;k&quot;:&quot;SKU&quot;,&quot;v&quot;:&quot;5307807&quot;},{&quot;k&quot;:&quot;nomenclatura&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Nombre Comercial&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Descripción emotiva&quot;,&quot;v&quot;:&quot;Con un diseño elegante y compacto, luce espectacular y te ofrece tus funciones favoritas para que disfrutes la vida al máximo.&quot;},{&quot;k&quot;:&quot;Cámara frontal&quot;,&quot;v&quot;:&quot;16MP&quot;},{&quot;k&quot;:&quot;Cámara principal&quot;,&quot;v&quot;:&quot;50MP+8MP+2MP+2MP&quot;},{&quot;k&quot;:&quot;Color&quot;,&quot;v&quot;:&quot;Azul&quot;},{&quot;k&quot;:&quot;Conexión Bluetooth&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Conexión Wi Fi&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Dual SIM&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Garantía&quot;,&quot;v&quot;:&quot;1 año&quot;},{&quot;k&quot;:&quot;Memoria expandible&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Memoria interna&quot;,&quot;v&quot;:&quot;128GB&quot;},{&quot;k&quot;:&quot;Memoria RAM&quot;,&quot;v&quot;:&quot;4GB&quot;},{&quot;k&quot;:&quot;Modelo&quot;,&quot;v&quot;:&quot;G22&quot;},{&quot;k&quot;:&quot;Modelo de procesador&quot;,&quot;v&quot;:&quot;Helio G37 octa-core 2.3GHz&quot;},{&quot;k&quot;:&quot;Velocidad del procesador&quot;,&quot;v&quot;:&quot;2.3GHz&quot;},{&quot;k&quot;:&quot;Sistema operativo&quot;,&quot;v&quot;:&quot;Android&quot;},{&quot;k&quot;:&quot;Tipo de pantalla&quot;,&quot;v&quot;:&quot;LCD&quot;},{&quot;k&quot;:&quot;Batería&quot;,&quot;v&quot;:&quot;5000 mAh&quot;},{&quot;k&quot;:&quot;Tipo de Producto&quot;,&quot;v&quot;:&quot;Smartphone&quot;},{&quot;k&quot;:&quot;Alto&quot;,&quot;v&quot;:&quot;15.29 cm&quot;},{&quot;k&quot;:&quot;Ancho&quot;,&quot;v&quot;:&quot;7.12 cm&quot;},{&quot;k&quot;:&quot;Profundidad&quot;,&quot;v&quot;:&quot;0.77 cm&quot;},{&quot;k&quot;:&quot;Peso&quot;,&quot;v&quot;:&quot;0.186 kg&quot;},{&quot;k&quot;:&quot;Características&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\r\nSistema operativo: Android 12\r\nDuración de carga: 45 minutos&quot;},{&quot;k&quot;:&quot;Incluye&quot;,&quot;v&quot;:&quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;}],&quot;spider&quot;:&quot;oechsle&quot;,&quot;url_search&quot;:&quot;https://www.oechsle.pe/celular-motorola-g22-6-5-4gb-ram-128gb-azul-2316873/p&quot;,&quot;stock&quot;:-1,&quot;price_card&quot;:null},{&quot;priority&quot;:0.6,&quot;sku&quot;:&quot;1000367658&quot;,&quot;brand&quot;:&quot;MOTOROLA&quot;,&quot;category&quot;:&quot;Celulares&quot;,&quot;subcategory&quot;:&quot;Otros&quot;,&quot;key&quot;:&quot;Promart1000367658&quot;,&quot;title&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;titleurl&quot;:&quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,&quot;store&quot;:&quot;Promart&quot;,&quot;model&quot;:&quot;G22&quot;,&quot;url&quot;:&quot;https://www.promart.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000367658/p&quot;,&quot;url_parent&quot;:&quot;https://www.promart.pe/api/catalog_system/pub/products/search?fq=productId%3A1000367658&quot;,&quot;price&quot;:449,&quot;bestprice&quot;:449,&quot;prevprice&quot;:449,&quot;price_change&quot;:0,&quot;homologated&quot;:1,&quot;updated&quot;:&quot;2024-06-20T03:56:49.967Z&quot;,&quot;updated_date&quot;:&quot;2024-06-20T00:00:00.000Z&quot;,&quot;specs&quot;:[{&quot;k&quot;:&quot;Color principal&quot;,&quot;v&quot;:&quot;Azul&quot;},{&quot;k&quot;:&quot;Vendido por&quot;,&quot;v&quot;:&quot;Oechsle&quot;},{&quot;k&quot;:&quot;Color&quot;,&quot;v&quot;:&quot;Azul&quot;},{&quot;k&quot;:&quot;Tecnología celular&quot;,&quot;v&quot;:&quot;4G&quot;},{&quot;k&quot;:&quot;Tamaño pantalla celulares&quot;,&quot;v&quot;:&quot;6.5\&quot;&quot;},{&quot;k&quot;:&quot;Peso (Kg)&quot;,&quot;v&quot;:&quot;Peso (Kg)&quot;},{&quot;k&quot;:&quot;SKU&quot;,&quot;v&quot;:&quot;5307807&quot;},{&quot;k&quot;:&quot;Nombre Comercial&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Radio&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;nomenclatura&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Enfoque Automático&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Peso&quot;,&quot;v&quot;:&quot;0.186 kg&quot;},{&quot;k&quot;:&quot;Cámara Principal&quot;,&quot;v&quot;:&quot;50MP+8MP+2MP+2MP&quot;},{&quot;k&quot;:&quot;Sistema Operativo&quot;,&quot;v&quot;:&quot;Android&quot;},{&quot;k&quot;:&quot;Características&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\r\nSistema operativo: Android 12\r\nDuración de carga: 45 minutos&quot;},{&quot;k&quot;:&quot;Garantía&quot;,&quot;v&quot;:&quot;1 Año&quot;},{&quot;k&quot;:&quot;Conexión Bluetooth&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Velocidad del procesador&quot;,&quot;v&quot;:&quot;2.3GHz&quot;},{&quot;k&quot;:&quot;Tamaño de la pantalla&quot;,&quot;v&quot;:&quot;6.5\&quot;&quot;},{&quot;k&quot;:&quot;Conexión Wi Fi&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Modelo&quot;,&quot;v&quot;:&quot;G22&quot;},{&quot;k&quot;:&quot;Tipo de Producto&quot;,&quot;v&quot;:&quot;Smartphone&quot;},{&quot;k&quot;:&quot;Batería&quot;,&quot;v&quot;:&quot;5000 mAh&quot;},{&quot;k&quot;:&quot;Cámara integrada&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Alto&quot;,&quot;v&quot;:&quot;15.29 cm&quot;},{&quot;k&quot;:&quot;Tipo De Pantalla&quot;,&quot;v&quot;:&quot;LCD&quot;},{&quot;k&quot;:&quot;Memoria RAM&quot;,&quot;v&quot;:&quot;4GB&quot;},{&quot;k&quot;:&quot;Cámara Frontal&quot;,&quot;v&quot;:&quot;16MP&quot;},{&quot;k&quot;:&quot;Memoria Interna&quot;,&quot;v&quot;:&quot;128GB&quot;},{&quot;k&quot;:&quot;Memoria Expandible&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Incluye&quot;,&quot;v&quot;:&quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;}],&quot;spider&quot;:&quot;promart&quot;,&quot;url_search&quot;:&quot;https://www.promart.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000367658/p&quot;,&quot;stock&quot;:8,&quot;price_card&quot;:null}],&quot;specs&quot;:[{&quot;key&quot;:&quot;Promart1000367658&quot;,&quot;title&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;store&quot;:&quot;Promart&quot;,&quot;size&quot;:31,&quot;specs&quot;:[{&quot;k&quot;:&quot;Color principal&quot;,&quot;v&quot;:&quot;Azul&quot;},{&quot;k&quot;:&quot;Vendido por&quot;,&quot;v&quot;:&quot;Oechsle&quot;},{&quot;k&quot;:&quot;Color&quot;,&quot;v&quot;:&quot;Azul&quot;},{&quot;k&quot;:&quot;Tecnología celular&quot;,&quot;v&quot;:&quot;4G&quot;},{&quot;k&quot;:&quot;Tamaño pantalla celulares&quot;,&quot;v&quot;:&quot;6.5\&quot;&quot;},{&quot;k&quot;:&quot;Peso (Kg)&quot;,&quot;v&quot;:&quot;Peso (Kg)&quot;},{&quot;k&quot;:&quot;SKU&quot;,&quot;v&quot;:&quot;5307807&quot;},{&quot;k&quot;:&quot;Nombre Comercial&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Radio&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;nomenclatura&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;},{&quot;k&quot;:&quot;Enfoque Automático&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Peso&quot;,&quot;v&quot;:&quot;0.186 kg&quot;},{&quot;k&quot;:&quot;Cámara Principal&quot;,&quot;v&quot;:&quot;50MP+8MP+2MP+2MP&quot;},{&quot;k&quot;:&quot;Sistema Operativo&quot;,&quot;v&quot;:&quot;Android&quot;},{&quot;k&quot;:&quot;Características&quot;,&quot;v&quot;:&quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\r\nSistema operativo: Android 12\r\nDuración de carga: 45 minutos&quot;},{&quot;k&quot;:&quot;Garantía&quot;,&quot;v&quot;:&quot;1 Año&quot;},{&quot;k&quot;:&quot;Conexión Bluetooth&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Velocidad del procesador&quot;,&quot;v&quot;:&quot;2.3GHz&quot;},{&quot;k&quot;:&quot;Tamaño de la pantalla&quot;,&quot;v&quot;:&quot;6.5\&quot;&quot;},{&quot;k&quot;:&quot;Conexión Wi Fi&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Modelo&quot;,&quot;v&quot;:&quot;G22&quot;},{&quot;k&quot;:&quot;Tipo de Producto&quot;,&quot;v&quot;:&quot;Smartphone&quot;},{&quot;k&quot;:&quot;Batería&quot;,&quot;v&quot;:&quot;5000 mAh&quot;},{&quot;k&quot;:&quot;Cámara integrada&quot;,&quot;v&quot;:&quot;Sí&quot;},{&quot;k&quot;:&quot;Alto&quot;,&quot;v&quot;:&quot;15.29 cm&quot;},{&quot;k&quot;:&quot;Tipo De Pantalla&quot;,&quot;v&quot;:&quot;LCD&quot;},{&quot;k&quot;:&quot;Memoria RAM&quot;,&quot;v&quot;:&quot;4GB&quot;},{&quot;k&quot;:&quot;Cámara Frontal&quot;,&quot;v&quot;:&quot;16MP&quot;},{&quot;k&quot;:&quot;Memoria Interna&quot;,&quot;v&quot;:&quot;128GB&quot;},{&quot;k&quot;:&quot;Memoria Expandible&quot;,&quot;v&quot;:&quot;No&quot;},{&quot;k&quot;:&quot;Incluye&quot;,&quot;v&quot;:&quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;}],&quot;updated&quot;:&quot;2024-06-20T00:00:00.000Z&quot;}],&quot;subcategory&quot;:&quot;Otros&quot;,&quot;tags&quot;:[&quot;Tecnologia&quot;,&quot;Telefonia&quot;,&quot;Smartphones&quot;],&quot;toptitle&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;histmetrics&quot;:{&quot;min&quot;:748.02,&quot;avg&quot;:756.1185185185187,&quot;days&quot;:27,&quot;isminimum&quot;:false},&quot;title&quot;:&quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,&quot;bestprice&quot;:433.28,&quot;numstores&quot;:4}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">68</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">09:04:41.861 [print] {
+  &quot;message&quot;: &quot;Product fetched correctly&quot;,
+  &quot;product&quot;: {
+    &quot;_id&quot;: &quot;6525088cf0ffaae7a3237f6e&quot;,
+    &quot;repmodel&quot;: &quot;MOTO G22 4RAM 128GB AZUL&quot;,
+    &quot;brand&quot;: &quot;MOTOROLA&quot;,
+    &quot;categories&quot;: {
+      &quot;level1&quot;: &quot;Tecnologia&quot;,
+      &quot;level2&quot;: &quot;Telefonia&quot;,
+      &quot;level3&quot;: &quot;Smartphones&quot;
+    },
+    &quot;category&quot;: &quot;Celulares&quot;,
+    &quot;images&quot;: [
+      {
+        &quot;key&quot;: &quot;Promart1000367658&quot;,
+        &quot;title&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+        &quot;store&quot;: &quot;Promart&quot;,
+        &quot;size&quot;: 4,
+        &quot;urls&quot;: [
+          &quot;https://promart.vteximg.com.br/arquivos/ids/6891424/1.jpg?v=638158238297530000&quot;,
+          &quot;https://promart.vteximg.com.br/arquivos/ids/6871260/image-0767eb0528d143ff9c656f981e94b212.jpg?v=638151154099800000&quot;,
+          &quot;https://promart.vteximg.com.br/arquivos/ids/6871261/image-8ba24ab4eb434287a355ea9e7a4974a0.jpg?v=638151154099970000&quot;,
+          &quot;https://promart.vteximg.com.br/arquivos/ids/6871262/image-463076c0fdf548a399ce50fc97d04a40.jpg?v=638151154102170000&quot;
+        ],
+        &quot;updated&quot;: &quot;2024-06-20T00:00:00.000Z&quot;,
+        &quot;bestprice&quot;: 449
+      }
+    ],
+    &quot;metrics&quot;: {
+      &quot;percent_offer&quot;: 25.67691623368636,
+      &quot;median_hist&quot;: 582.968275862069,
+      &quot;prev_price&quot;: 433.28,
+      &quot;amt_change&quot;: 0,
+      &quot;amt_change_text&quot;: &quot;No bajó de precio&quot;,
+      &quot;percent_change&quot;: 0,
+      &quot;price_minimum&quot;: 433.28,
+      &quot;isminimum&quot;: true,
+      &quot;percent_save&quot;: 3.5011135857461086
+    },
+    &quot;prices&quot;: [
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-12T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-11T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-10T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-09T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-09T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-07T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-06T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-05T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-04T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-03T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-02T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-04-01T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-31T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-30T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-29T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-28T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-27T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-26T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-25T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 2.0402734551645296
+      },
+      {
+        &quot;price&quot;: 751.86,
+        &quot;date&quot;: &quot;2024-03-24T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 751.86,
+        &quot;date&quot;: &quot;2024-03-23T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 751.86,
+        &quot;date&quot;: &quot;2024-03-22T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 751.86,
+        &quot;date&quot;: &quot;2024-03-18T00:00:00.000Z&quot;,
+        &quot;variation&quot;: -1.9994786235662187
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-15T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-14T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-13T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-12T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-11T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-10T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      },
+      {
+        &quot;price&quot;: 767.2,
+        &quot;date&quot;: &quot;2024-03-09T00:00:00.000Z&quot;,
+        &quot;variation&quot;: 0
+      }
+    ],
+    &quot;related&quot;: [
+    ],
+    &quot;skus&quot;: [
+      {
+        &quot;priority&quot;: 0.9,
+        &quot;sku&quot;: &quot;1148760&quot;,
+        &quot;brand&quot;: &quot;MOTOROLA&quot;,
+        &quot;category&quot;: &quot;Celulares&quot;,
+        &quot;subcategory&quot;: &quot;Otros&quot;,
+        &quot;key&quot;: &quot;Shopstar1148760&quot;,
+        &quot;title&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+        &quot;titleurl&quot;: &quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,
+        &quot;store&quot;: &quot;Shopstar&quot;,
+        &quot;model&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+        &quot;url&quot;: &quot;https://www.shopstar.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1148760/p&quot;,
+        &quot;url_parent&quot;: &quot;https://www.shopstar.pe/api/catalog_system/pub/products/search/?fq=productId:1148760&quot;,
+        &quot;price&quot;: 449,
+        &quot;bestprice&quot;: 433.28,
+        &quot;prevprice&quot;: 433.28,
+        &quot;price_change&quot;: 0,
+        &quot;homologated&quot;: 1,
+        &quot;updated&quot;: &quot;2024-06-19T15:18:58.157Z&quot;,
+        &quot;updated_date&quot;: &quot;2024-06-19T00:00:00.000Z&quot;,
+        &quot;specs&quot;: [
+          {
+            &quot;k&quot;: &quot;Memoria interna&quot;,
+            &quot;v&quot;: &quot;128GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria ram&quot;,
+            &quot;v&quot;: &quot;4GB&quot;
+          }
+        ],
+        &quot;spider&quot;: &quot;shopstar&quot;,
+        &quot;url_search&quot;: &quot;https://shopstar.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1148760/p&quot;,
+        &quot;stock&quot;: -1,
+        &quot;price_card&quot;: 433.28
+      },
+      {
+        &quot;priority&quot;: 0.6,
+        &quot;sku&quot;: &quot;1000405468&quot;,
+        &quot;brand&quot;: &quot;MOTOROLA&quot;,
+        &quot;category&quot;: &quot;Celulares&quot;,
+        &quot;subcategory&quot;: &quot;Otros&quot;,
+        &quot;key&quot;: &quot;Real Plaza1000405468&quot;,
+        &quot;title&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+        &quot;titleurl&quot;: &quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,
+        &quot;store&quot;: &quot;Realplaza.com&quot;,
+        &quot;model&quot;: &quot;G22&quot;,
+        &quot;url&quot;: &quot;https://www.realplaza.com/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000405468/p&quot;,
+        &quot;url_parent&quot;: &quot;https://www.realplaza.com/api/catalog_system/pub/products/search?fq=productId%3A1000405468&quot;,
+        &quot;price&quot;: 449,
+        &quot;bestprice&quot;: 449,
+        &quot;prevprice&quot;: 449,
+        &quot;price_change&quot;: 0,
+        &quot;homologated&quot;: 1,
+        &quot;updated&quot;: &quot;2024-06-19T12:23:17.793Z&quot;,
+        &quot;updated_date&quot;: &quot;2024-06-19T00:00:00.000Z&quot;,
+        &quot;specs&quot;: [
+          {
+            &quot;k&quot;: &quot;Enfoque Automático&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara Principal&quot;,
+            &quot;v&quot;: &quot;50MP+8MP+2MP+2MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Modelo del procesador&quot;,
+            &quot;v&quot;: &quot;Helio G37 octa-core 2.3GHz&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño pantalla celulares&quot;,
+            &quot;v&quot;: &quot;6.5\&quot;&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Dual SIM&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tecnología Celular&quot;,
+            &quot;v&quot;: &quot;4G&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Nombre Comercial&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Bluetooth&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de producto&quot;,
+            &quot;v&quot;: &quot;Smartphone&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Modelo&quot;,
+            &quot;v&quot;: &quot;G22&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Nomenclatura&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Alto&quot;,
+            &quot;v&quot;: &quot;15.29 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Ancho&quot;,
+            &quot;v&quot;: &quot;7.12 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Profundidad&quot;,
+            &quot;v&quot;: &quot;0.77 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Color&quot;,
+            &quot;v&quot;: &quot;Azul&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Sistema Operativo&quot;,
+            &quot;v&quot;: &quot;Android&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Batería&quot;,
+            &quot;v&quot;: &quot;5000 mAh&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Peso&quot;,
+            &quot;v&quot;: &quot;0.186 kg&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Descripción Emotiva&quot;,
+            &quot;v&quot;: &quot;Con un diseño elegante y compacto, luce espectacular y te ofrece tus funciones favoritas para que disfrutes la vida al máximo.&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Wi Fi&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de pantalla&quot;,
+            &quot;v&quot;: &quot;LCD&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara Integrada&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara Frontal&quot;,
+            &quot;v&quot;: &quot;16MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño de Pantalla&quot;,
+            &quot;v&quot;: &quot;6.5\&quot;&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria Optane&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Velocidad del procesador&quot;,
+            &quot;v&quot;: &quot;2.3GHz&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Características&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\nSistema operativo: Android 12\nDuración de carga: 45 minutos&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Garantía&quot;,
+            &quot;v&quot;: &quot;1 año&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Incluye&quot;,
+            &quot;v&quot;: &quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria RAM&quot;,
+            &quot;v&quot;: &quot;4GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria interna&quot;,
+            &quot;v&quot;: &quot;128GB&quot;
+          }
+        ],
+        &quot;spider&quot;: &quot;realplaza&quot;,
+        &quot;url_search&quot;: &quot;https://www.realplaza.com/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000405468/p&quot;,
+        &quot;stock&quot;: 11,
+        &quot;price_card&quot;: null
+      },
+      {
+        &quot;priority&quot;: 0.6,
+        &quot;sku&quot;: &quot;2316873&quot;,
+        &quot;brand&quot;: &quot;MOTOROLA&quot;,
+        &quot;category&quot;: &quot;Celulares&quot;,
+        &quot;subcategory&quot;: &quot;Otros&quot;,
+        &quot;key&quot;: &quot;Oechsle2316873&quot;,
+        &quot;title&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+        &quot;titleurl&quot;: &quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,
+        &quot;store&quot;: &quot;Oechsle&quot;,
+        &quot;model&quot;: &quot;G22&quot;,
+        &quot;url&quot;: &quot;https://www.oechsle.pe/celular-motorola-g22-6-5-4gb-ram-128gb-azul-2316873/p&quot;,
+        &quot;url_parent&quot;: &quot;https://www.oechsle.pe/api/catalog_system/pub/products/search?fq=productId%3A2316873&quot;,
+        &quot;price&quot;: 449,
+        &quot;bestprice&quot;: 449,
+        &quot;prevprice&quot;: 449,
+        &quot;price_change&quot;: 0,
+        &quot;homologated&quot;: 1,
+        &quot;updated&quot;: &quot;2024-06-19T18:06:45.536Z&quot;,
+        &quot;updated_date&quot;: &quot;2024-06-19T00:00:00.000Z&quot;,
+        &quot;specs&quot;: [
+          {
+            &quot;k&quot;: &quot;Alta Resolución (HD)&quot;,
+            &quot;v&quot;: &quot;Alta Resolución (HD)&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Firewire&quot;,
+            &quot;v&quot;: &quot;Conexión Firewire&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Enfoque Manual&quot;,
+            &quot;v&quot;: &quot;Enfoque Manual&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Luz Incorporada&quot;,
+            &quot;v&quot;: &quot;Luz Incorporada&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Peso (Kg)&quot;,
+            &quot;v&quot;: &quot;Peso (Kg)&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Puertos RCA&quot;,
+            &quot;v&quot;: &quot;Puertos RCA&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Ranura para Memoria Flash&quot;,
+            &quot;v&quot;: &quot;Ranura para Memoria Flash&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Registro Fecha/Hora&quot;,
+            &quot;v&quot;: &quot;Registro Fecha/Hora&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño Pantalla&quot;,
+            &quot;v&quot;: &quot;Tamaño Pantalla&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de Memoria&quot;,
+            &quot;v&quot;: &quot;Tipo de Memoria&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Zoom&quot;,
+            &quot;v&quot;: &quot;Zoom&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Profundidad en agua&quot;,
+            &quot;v&quot;: &quot;No (No)&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Protección de sobrecarga&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Radio&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Indicador de carga&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Botón SOS&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara integrada&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Enfoque automático&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tecnología celular&quot;,
+            &quot;v&quot;: &quot;4G&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Vendido por&quot;,
+            &quot;v&quot;: &quot;Oechsle&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño pantalla celulares&quot;,
+            &quot;v&quot;: &quot;6.5&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de envío&quot;,
+            &quot;v&quot;: &quot;Envío hoy&quot;
+          },
+          {
+            &quot;k&quot;: &quot;SKU&quot;,
+            &quot;v&quot;: &quot;5307807&quot;
+          },
+          {
+            &quot;k&quot;: &quot;nomenclatura&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Nombre Comercial&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Descripción emotiva&quot;,
+            &quot;v&quot;: &quot;Con un diseño elegante y compacto, luce espectacular y te ofrece tus funciones favoritas para que disfrutes la vida al máximo.&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara frontal&quot;,
+            &quot;v&quot;: &quot;16MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara principal&quot;,
+            &quot;v&quot;: &quot;50MP+8MP+2MP+2MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Color&quot;,
+            &quot;v&quot;: &quot;Azul&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Bluetooth&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Wi Fi&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Dual SIM&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Garantía&quot;,
+            &quot;v&quot;: &quot;1 año&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria expandible&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria interna&quot;,
+            &quot;v&quot;: &quot;128GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria RAM&quot;,
+            &quot;v&quot;: &quot;4GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Modelo&quot;,
+            &quot;v&quot;: &quot;G22&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Modelo de procesador&quot;,
+            &quot;v&quot;: &quot;Helio G37 octa-core 2.3GHz&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Velocidad del procesador&quot;,
+            &quot;v&quot;: &quot;2.3GHz&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Sistema operativo&quot;,
+            &quot;v&quot;: &quot;Android&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de pantalla&quot;,
+            &quot;v&quot;: &quot;LCD&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Batería&quot;,
+            &quot;v&quot;: &quot;5000 mAh&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de Producto&quot;,
+            &quot;v&quot;: &quot;Smartphone&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Alto&quot;,
+            &quot;v&quot;: &quot;15.29 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Ancho&quot;,
+            &quot;v&quot;: &quot;7.12 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Profundidad&quot;,
+            &quot;v&quot;: &quot;0.77 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Peso&quot;,
+            &quot;v&quot;: &quot;0.186 kg&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Características&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\r\nSistema operativo: Android 12\r\nDuración de carga: 45 minutos&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Incluye&quot;,
+            &quot;v&quot;: &quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;
+          }
+        ],
+        &quot;spider&quot;: &quot;oechsle&quot;,
+        &quot;url_search&quot;: &quot;https://www.oechsle.pe/celular-motorola-g22-6-5-4gb-ram-128gb-azul-2316873/p&quot;,
+        &quot;stock&quot;: -1,
+        &quot;price_card&quot;: null
+      },
+      {
+        &quot;priority&quot;: 0.6,
+        &quot;sku&quot;: &quot;1000367658&quot;,
+        &quot;brand&quot;: &quot;MOTOROLA&quot;,
+        &quot;category&quot;: &quot;Celulares&quot;,
+        &quot;subcategory&quot;: &quot;Otros&quot;,
+        &quot;key&quot;: &quot;Promart1000367658&quot;,
+        &quot;title&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+        &quot;titleurl&quot;: &quot;celular-motorola-g22-6.5%22-4gb-ram-128gb-azul&quot;,
+        &quot;store&quot;: &quot;Promart&quot;,
+        &quot;model&quot;: &quot;G22&quot;,
+        &quot;url&quot;: &quot;https://www.promart.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000367658/p&quot;,
+        &quot;url_parent&quot;: &quot;https://www.promart.pe/api/catalog_system/pub/products/search?fq=productId%3A1000367658&quot;,
+        &quot;price&quot;: 449,
+        &quot;bestprice&quot;: 449,
+        &quot;prevprice&quot;: 449,
+        &quot;price_change&quot;: 0,
+        &quot;homologated&quot;: 1,
+        &quot;updated&quot;: &quot;2024-06-20T03:56:49.967Z&quot;,
+        &quot;updated_date&quot;: &quot;2024-06-20T00:00:00.000Z&quot;,
+        &quot;specs&quot;: [
+          {
+            &quot;k&quot;: &quot;Color principal&quot;,
+            &quot;v&quot;: &quot;Azul&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Vendido por&quot;,
+            &quot;v&quot;: &quot;Oechsle&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Color&quot;,
+            &quot;v&quot;: &quot;Azul&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tecnología celular&quot;,
+            &quot;v&quot;: &quot;4G&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño pantalla celulares&quot;,
+            &quot;v&quot;: &quot;6.5\&quot;&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Peso (Kg)&quot;,
+            &quot;v&quot;: &quot;Peso (Kg)&quot;
+          },
+          {
+            &quot;k&quot;: &quot;SKU&quot;,
+            &quot;v&quot;: &quot;5307807&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Nombre Comercial&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Radio&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;nomenclatura&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Enfoque Automático&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Peso&quot;,
+            &quot;v&quot;: &quot;0.186 kg&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara Principal&quot;,
+            &quot;v&quot;: &quot;50MP+8MP+2MP+2MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Sistema Operativo&quot;,
+            &quot;v&quot;: &quot;Android&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Características&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\r\nSistema operativo: Android 12\r\nDuración de carga: 45 minutos&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Garantía&quot;,
+            &quot;v&quot;: &quot;1 Año&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Bluetooth&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Velocidad del procesador&quot;,
+            &quot;v&quot;: &quot;2.3GHz&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño de la pantalla&quot;,
+            &quot;v&quot;: &quot;6.5\&quot;&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Wi Fi&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Modelo&quot;,
+            &quot;v&quot;: &quot;G22&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de Producto&quot;,
+            &quot;v&quot;: &quot;Smartphone&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Batería&quot;,
+            &quot;v&quot;: &quot;5000 mAh&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara integrada&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Alto&quot;,
+            &quot;v&quot;: &quot;15.29 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo De Pantalla&quot;,
+            &quot;v&quot;: &quot;LCD&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria RAM&quot;,
+            &quot;v&quot;: &quot;4GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara Frontal&quot;,
+            &quot;v&quot;: &quot;16MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria Interna&quot;,
+            &quot;v&quot;: &quot;128GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria Expandible&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Incluye&quot;,
+            &quot;v&quot;: &quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;
+          }
+        ],
+        &quot;spider&quot;: &quot;promart&quot;,
+        &quot;url_search&quot;: &quot;https://www.promart.pe/celular-motorola-g22-6-5--4gb-ram-128gb-azul-1000367658/p&quot;,
+        &quot;stock&quot;: 8,
+        &quot;price_card&quot;: null
+      }
+    ],
+    &quot;specs&quot;: [
+      {
+        &quot;key&quot;: &quot;Promart1000367658&quot;,
+        &quot;title&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+        &quot;store&quot;: &quot;Promart&quot;,
+        &quot;size&quot;: 31,
+        &quot;specs&quot;: [
+          {
+            &quot;k&quot;: &quot;Color principal&quot;,
+            &quot;v&quot;: &quot;Azul&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Vendido por&quot;,
+            &quot;v&quot;: &quot;Oechsle&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Color&quot;,
+            &quot;v&quot;: &quot;Azul&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tecnología celular&quot;,
+            &quot;v&quot;: &quot;4G&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño pantalla celulares&quot;,
+            &quot;v&quot;: &quot;6.5\&quot;&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Peso (Kg)&quot;,
+            &quot;v&quot;: &quot;Peso (Kg)&quot;
+          },
+          {
+            &quot;k&quot;: &quot;SKU&quot;,
+            &quot;v&quot;: &quot;5307807&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Nombre Comercial&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Radio&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;nomenclatura&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Enfoque Automático&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Peso&quot;,
+            &quot;v&quot;: &quot;0.186 kg&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara Principal&quot;,
+            &quot;v&quot;: &quot;50MP+8MP+2MP+2MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Sistema Operativo&quot;,
+            &quot;v&quot;: &quot;Android&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Características&quot;,
+            &quot;v&quot;: &quot;Motorola G22 4+128 Blue/Camara 50+8+2+2 MP\r\nSistema operativo: Android 12\r\nDuración de carga: 45 minutos&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Garantía&quot;,
+            &quot;v&quot;: &quot;1 Año&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Bluetooth&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Velocidad del procesador&quot;,
+            &quot;v&quot;: &quot;2.3GHz&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tamaño de la pantalla&quot;,
+            &quot;v&quot;: &quot;6.5\&quot;&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Conexión Wi Fi&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Modelo&quot;,
+            &quot;v&quot;: &quot;G22&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo de Producto&quot;,
+            &quot;v&quot;: &quot;Smartphone&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Batería&quot;,
+            &quot;v&quot;: &quot;5000 mAh&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara integrada&quot;,
+            &quot;v&quot;: &quot;Sí&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Alto&quot;,
+            &quot;v&quot;: &quot;15.29 cm&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Tipo De Pantalla&quot;,
+            &quot;v&quot;: &quot;LCD&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria RAM&quot;,
+            &quot;v&quot;: &quot;4GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Cámara Frontal&quot;,
+            &quot;v&quot;: &quot;16MP&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria Interna&quot;,
+            &quot;v&quot;: &quot;128GB&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Memoria Expandible&quot;,
+            &quot;v&quot;: &quot;No&quot;
+          },
+          {
+            &quot;k&quot;: &quot;Incluye&quot;,
+            &quot;v&quot;: &quot;Manual de Usuario, Cargador, Cable USB, Removedor de SIM&quot;
+          }
+        ],
+        &quot;updated&quot;: &quot;2024-06-20T00:00:00.000Z&quot;
+      }
+    ],
+    &quot;subcategory&quot;: &quot;Otros&quot;,
+    &quot;tags&quot;: [
+      &quot;Tecnologia&quot;,
+      &quot;Telefonia&quot;,
+      &quot;Smartphones&quot;
+    ],
+    &quot;toptitle&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+    &quot;histmetrics&quot;: {
+      &quot;min&quot;: 748.02,
+      &quot;avg&quot;: 756.1185185185187,
+      &quot;days&quot;: 27,
+      &quot;isminimum&quot;: false
+    },
+    &quot;title&quot;: &quot;Celular Motorola G22 6.5\&quot; 4GB RAM 128GB Azul&quot;,
+    &quot;bestprice&quot;: 433.28,
+    &quot;numstores&quot;: 4
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
